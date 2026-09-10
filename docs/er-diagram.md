@@ -41,7 +41,7 @@ erDiagram
     }
 
     workflow_bodies {
-        string file_id PK_FK
+        string file_id PK, FK
         large_string body_markdown
     }
 ```
